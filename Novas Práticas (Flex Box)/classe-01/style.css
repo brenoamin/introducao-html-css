@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background: #F2F2F2;
+    display:flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.contain-father{
+    margin:0 auto;
+    max-width:920px;
+}
+.container{
+    display:flex;
+}
+.sedan{
+    background-color: #E28625;
+    padding:48px;
+}
+.suv{
+    padding:48px;
+    background-color: #006971;
+}
+.luxury{
+    padding:48px;
+    background-color: #004140;
+
+}
+h1{
+    margin-top:35px;
+    color:#F2F2F2;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+p{
+    color: rgba(255, 255, 255,0.75);
+    margin-top:25px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+a{
+    text-decoration: none;
+    font-family: 'Lexend Deca', sans-serif;
+    background: #F2F2F2;
+    border-radius: 25px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+
+    padding:11px 31.5px;
+}
+.btn{
+    margin-top:83px;
+}
+.btn-laranja a{
+    color: #E28625;
+
+}
+.btn-azul a{
+    color: #006971;
+;
+
+}
+.btn-verde a{
+    color: #004140;
+
+
+}
