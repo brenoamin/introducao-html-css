@@ -1,0 +1,92 @@
+body{
+    background-image:url(assets/background.jpg);
+    font-family: 'Kumbh Sans', sans-serif;
+    min-height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    position:relative;
+    background-color:white;
+    width: 325px;
+    padding: 92px 54px 24px 47px;
+    box-sizing: border-box;
+    box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.504835);
+    border-radius: 15px; 
+    background-image: url(assets/bg-pattern-card.svg); 
+    background-repeat: no-repeat;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+
+}
+.profile{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img-profile img{
+    border-radius: 50%;
+    border: 5px solid #FFFFFF;
+    background-color:#FFFFFF
+
+}
+.profile-info{
+    color:#2E3349;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0px;
+
+}
+.profile-info span{
+    color:#6B7082;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0px;
+}
+.city{
+    color:#6B7082;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-bottom: 53px;
+}
+.popularity{
+    position: absolute;
+    bottom:0px;
+    width: 97%;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #e8e9ec;
+    text-align: center;
+    margin-bottom: -.5px;
+}
+.popularity h1{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: center;
+
+}
+.popularity p{
+    font-family: Kumbh Sans;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 10px;
+    letter-spacing: 1.5px;
+    text-align: center;
+
+}
